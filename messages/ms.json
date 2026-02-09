@@ -1,0 +1,93 @@
+{
+  "Metadata": {
+    "title": "Mohd Hanif Mohamad - Pegawai Tadbir UPSI",
+    "siteName": "Mohd Hanif Mohamad",
+    "description": "Pegawai Tadbir di Universiti Pendidikan Sultan Idris (UPSI)."
+  },
+  "Nav": {
+    "home": "Utama",
+    "about": "Tentang",
+    "skills": "Kemahiran",
+    "projects": "Projek",
+    "experience": "Pengalaman",
+    "blog": "Blog",
+    "contact": "Hubungi"
+  },
+  "Hero": {
+    "greeting": "Hai, saya",
+    "name": "Mohd Hanif Mohamad",
+    "role": "Pegawai Tadbir UPSI",
+    "tagline": "Pegawai Tadbir di Universiti Pendidikan Sultan Idris.",
+    "cta_projects": "Lihat Projek",
+    "cta_contact": "Hubungi Saya"
+  },
+  "About": {
+    "heading": "Tentang Saya",
+    "bio_1": "Saya seorang Pembangun Full Stack yang bersemangat dengan pengalaman dalam membina aplikasi web menggunakan teknologi moden. Saya gemar menukar masalah kompleks kepada penyelesaian yang mudah, cantik dan intuitif.",
+    "bio_2": "Apabila tidak mengekod, anda boleh jumpa saya meneroka teknologi baharu, menyumbang kepada sumber terbuka, atau menikmati secawan kopi yang enak.",
+    "tech_heading": "Teknologi yang saya gunakan"
+  },
+  "Skills": {
+    "heading": "Kemahiran & Teknologi",
+    "subtitle": "Teknologi dan alatan yang saya gunakan untuk merealisasikan idea.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Alatan & DevOps",
+    "other": "Lain-lain"
+  },
+  "Projects": {
+    "heading": "Projek",
+    "subtitle": "Koleksi projek yang telah saya kerjakan.",
+    "view_code": "Lihat Kod",
+    "live_demo": "Demo Langsung",
+    "project1_title": "Platform E-Dagang",
+    "project1_description": "Platform e-dagang penuh dengan integrasi pembayaran, pengesahan pengguna, dan papan pemuka admin.",
+    "project2_title": "Aplikasi Pengurusan Tugas",
+    "project2_description": "Aplikasi pengurusan tugas kolaboratif dengan kemas kini masa nyata dan ciri pasukan.",
+    "project3_title": "Laman Web Portfolio",
+    "project3_description": "Laman web portfolio moden dibina dengan Next.js, mempunyai pengantarabangsaan dan mod gelap."
+  },
+  "Experience": {
+    "heading": "Pengalaman Kerja",
+    "subtitle": "Perjalanan profesional saya setakat ini.",
+    "exp1_company": "Syarikat Teknologi",
+    "exp1_role": "Pembangun Full Stack Kanan",
+    "exp1_description": "Memimpin pembangunan aplikasi web, membimbing pembangun junior, dan melaksanakan saluran paip CI/CD.",
+    "exp2_company": "Agensi Digital",
+    "exp2_role": "Pembangun Full Stack",
+    "exp2_description": "Membangunkan aplikasi web responsif untuk pelbagai pelanggan menggunakan React, Node.js, dan perkhidmatan awan.",
+    "exp3_company": "Startup Inc",
+    "exp3_role": "Pembangun Junior",
+    "exp3_description": "Membina dan menyelenggara aplikasi web, bekerjasama dengan pasukan reka bentuk untuk penambahbaikan UI/UX.",
+    "present": "Sekarang"
+  },
+  "Blog": {
+    "heading": "Blog",
+    "subtitle": "Pemikiran, tutorial, dan pandangan tentang pembangunan web.",
+    "read_more": "Baca Lagi",
+    "post1_title": "Bermula dengan Next.js App Router",
+    "post1_excerpt": "Panduan komprehensif untuk membina aplikasi web moden dengan Next.js App Router dan Server Components.",
+    "post2_title": "Menguasai TypeScript Generics",
+    "post2_excerpt": "Penerokaan mendalam tentang TypeScript generics dan cara menggunakannya dengan berkesan dalam projek anda.",
+    "post3_title": "Membina Aplikasi Web Yang Boleh Diakses",
+    "post3_excerpt": "Amalan terbaik untuk mencipta aplikasi web yang boleh diakses oleh semua orang."
+  },
+  "Contact": {
+    "heading": "Hubungi Saya",
+    "subtitle": "Ada projek dalam fikiran atau ingin berbual? Jangan segan untuk menghubungi.",
+    "name_label": "Nama",
+    "name_placeholder": "Nama anda",
+    "email_label": "Emel",
+    "email_placeholder": "emel@anda.com",
+    "message_label": "Mesej",
+    "message_placeholder": "Ceritakan tentang projek anda...",
+    "send_button": "Hantar Mesej",
+    "success": "Mesej berjaya dihantar!",
+    "error": "Sesuatu tidak kena. Sila cuba lagi.",
+    "or_reach": "Atau hubungi saya di"
+  },
+  "Footer": {
+    "copyright": "Hak cipta terpelihara.",
+    "built_with": "Dibina dengan"
+  }
+}
