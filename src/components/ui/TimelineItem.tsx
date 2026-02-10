@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { Experience } from "@/types";
-import TechBadge from "./TechBadge";
 import FadeInOnScroll from "@/components/animations/FadeInOnScroll";
 
 interface TimelineItemProps {
@@ -11,7 +10,9 @@ interface TimelineItemProps {
 }
 
 function formatDate(dateStr: string): string {
-  const [year, month] = dateStr.split("-");
+  const parts = dateStr.split("-");
+  const year = parts[0];
+  const month = parts[1];
   const monthNames = [
     "Jan", "Feb", "Mar", "Apr", "May", "Jun",
     "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
@@ -49,14 +50,12 @@ export default function TimelineItem({ experience, index }: TimelineItemProps) {
           <p className="mb-3 font-medium text-primary">
             {t(experience.companyKey)}
           </p>
-          <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
+          <p className="mb-3 text-sm leading-relaxed text-muted-foreground">
             {t(experience.descriptionKey)}
           </p>
-          <div className="flex flex-wrap gap-1.5">
-            {experience.tech.map((tech) => (
-              <TechBadge key={tech} name={tech} />
-            ))}
-          </div>
+          <span className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+            {t(experience.gradeKey)}
+          </span>
         </div>
       </div>
     </FadeInOnScroll>

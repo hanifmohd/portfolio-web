@@ -5,6 +5,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import FadeInOnScroll from "@/components/animations/FadeInOnScroll";
 import { motion } from "motion/react";
 import Image from "next/image";
+import { Quote } from "lucide-react";
 
 export default function About() {
   const t = useTranslations("About");
@@ -76,6 +77,17 @@ export default function About() {
               <p className="text-lg leading-relaxed text-muted-foreground">
                 {t("bio_2")}
               </p>
+
+              {/* Motivational quote */}
+              <blockquote className="mt-6 rounded-xl border-l-4 border-primary bg-secondary/50 p-5">
+                <Quote size={20} className="mb-2 text-primary/60" />
+                <p className="italic leading-relaxed text-foreground">
+                  &ldquo;{t("quote_text")}&rdquo;
+                </p>
+                <footer className="mt-2 text-sm font-medium text-primary">
+                  &mdash; {t("quote_author")}
+                </footer>
+              </blockquote>
             </div>
           </FadeInOnScroll>
         </div>

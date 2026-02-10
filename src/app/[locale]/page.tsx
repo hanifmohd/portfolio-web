@@ -1,10 +1,10 @@
 import { setRequestLocale } from "next-intl/server";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
+import Education from "@/components/sections/Education";
 import Skills from "@/components/sections/Skills";
-import Projects from "@/components/sections/Projects";
 import Experience from "@/components/sections/Experience";
-import Blog from "@/components/sections/Blog";
+import Awards from "@/components/sections/Awards";
 import Contact from "@/components/sections/Contact";
 
 export default async function HomePage({
@@ -19,10 +19,10 @@ export default async function HomePage({
     <>
       <Hero />
       <About />
+      <Education />
       <Skills />
-      <Projects />
       <Experience />
-      <Blog />
+      <Awards />
       <Contact />
     </>
   );

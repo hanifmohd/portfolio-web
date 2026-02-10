@@ -1,0 +1,130 @@
+{
+  "personal_info": {
+    "name": "Mohd Hanif Mohamad",
+    "email": "hanifmohd@upsi.edu.my",
+    "website": "https://www.hanifmohd.net",
+    "address": "No. 17, Jalan Tamalan 5 PC 18, Proton City 35900 Tg. Malim, Perak"
+  },
+  "quote": {
+    "text": "Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better.",
+    "author": "Jim Rohn"
+  },
+  "summary": "Ability to balance workloads efficiently analytically and able to adjust in a constantly changing environment. Ability to learn computer programming efficiently and internet savvy with excellent verbal written communication skills. High skills of maintaining confidentiality in handling sensitive issues. Flexible and able to work under pressure.",
+  "education": [
+    {
+      "index": 1,
+      "year": 2017,
+      "institution": "Universiti Teknologi MARA UiTM",
+      "qualification": "Bachelor of Administrative Science (Honours)"
+    },
+    {
+      "index": 2,
+      "year": 2005,
+      "institution": "Universiti Teknologi MARA UiTM",
+      "qualification": "Diploma in Sports and Recreation Management"
+    }
+  ],
+  "working_experience": [
+    {
+      "index": 1,
+      "period": "01 Oct 2007 - 15 May 2012",
+      "start_date": "2007-10-01",
+      "end_date": "2012-05-15",
+      "department": "Co-curiculum Centre",
+      "position": "Assistant Administrative Officer",
+      "grade": "N27"
+    },
+    {
+      "index": 2,
+      "period": "16 May 2012 - 14 Feb 2017",
+      "start_date": "2012-05-16",
+      "end_date": "2017-02-14",
+      "department": "Faculty of Human Development",
+      "position": "Senior Assistant Administrative Officer",
+      "grade": "N32"
+    },
+    {
+      "index": 3,
+      "period": "15 Feb 2017 - 14 June 2019",
+      "start_date": "2017-02-15",
+      "end_date": "2019-06-14",
+      "department": "Pejabat Karang Mengarang (UPSI PRESS)",
+      "position": "Senior Assistant Administrative Officer",
+      "grade": "N36"
+    },
+    {
+      "index": 4,
+      "period": "15 June 2019 - 14 Jan 2020",
+      "start_date": "2019-06-15",
+      "end_date": "2020-01-14",
+      "department": "Transportation Department",
+      "position": "Senior Assistant Administrative Officer",
+      "grade": "N36"
+    },
+    {
+      "index": 5,
+      "period": "15 Jan 2020 - 31 May 2023",
+      "start_date": "2020-01-15",
+      "end_date": "2023-05-31",
+      "department": "Neoteric Education Initiatives Centre",
+      "position": "Senior Assistant Administrative Officer",
+      "grade": "N36"
+    },
+    {
+      "index": 6,
+      "period": "01 June 2023 - Present",
+      "start_date": "2023-06-01",
+      "end_date": null,
+      "department": "Office of Deputy Vice Chancellor (Research & Innovation)",
+      "position": "Administrative Officer",
+      "grade": "N9"
+    }
+  ],
+  "languages": [
+    { "index": 1, "language": "Malay" },
+    { "index": 2, "language": "English" },
+    { "index": 3, "language": "Arabic" }
+  ],
+  "assessment_marks": [
+    { "index": 1, "year": 2019, "score": 93.45 },
+    { "index": 2, "year": 2020, "score": 97.89 },
+    { "index": 3, "year": 2021, "score": 99.00 },
+    { "index": 4, "year": 2022, "score": 100.00 },
+    { "index": 5, "year": 2023, "score": 94.50 }
+  ],
+  "awards": [
+    {
+      "index": 1,
+      "title": "Anugerah Perkhidmatan Cemerlang",
+      "year": 2009
+    },
+    {
+      "index": 2,
+      "title": "Anugerah Perkhidmatan Cemerlang",
+      "year": 2014
+    },
+    {
+      "index": 3,
+      "title": "Anugerah Perkhidmatan Cemerlang",
+      "year": 2019
+    },
+    {
+      "index": 4,
+      "title": "Anugerah Tokoh Pelaksana",
+      "year": 2020
+    }
+  ],
+  "sijil_penghargaan_perkhidmatan_cemerlang": {
+    "title": "Sijil Penghargaan Perkhidmatan Cemerlang",
+    "years": [2008, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024]
+  },
+  "skills": [
+    "Workload balancing and analytical thinking",
+    "Adaptability in changing environments",
+    "Computer programming",
+    "Internet savvy",
+    "Verbal and written communication",
+    "Confidentiality in handling sensitive issues",
+    "Flexible and able to work under pressure"
+  ]
+}

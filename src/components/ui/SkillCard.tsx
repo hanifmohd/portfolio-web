@@ -26,7 +26,7 @@ export default function SkillCard({ category }: SkillCardProps) {
             key={skill.name}
             className="rounded-lg bg-secondary px-3 py-1.5 text-sm font-medium text-secondary-foreground transition-colors hover:bg-primary/10 hover:text-primary"
           >
-            {skill.name}
+            {t(skill.name)}
           </span>
         ))}
       </div>

@@ -16,7 +16,7 @@ export default function Skills() {
       <div className="mx-auto max-w-6xl">
         <SectionHeading title={t("heading")} subtitle={t("subtitle")} />
 
-        <StaggerChildren className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <StaggerChildren className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {skillCategories.map((category) => (
             <StaggerItem key={category.categoryKey}>
               <SkillCard category={category} />

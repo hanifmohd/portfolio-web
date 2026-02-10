@@ -2,45 +2,28 @@ import { SkillCategory } from "@/types";
 
 export const skillCategories: SkillCategory[] = [
   {
-    categoryKey: "Skills.frontend",
+    categoryKey: "Skills.professional",
     skills: [
-      { name: "React" },
-      { name: "Next.js" },
-      { name: "TypeScript" },
-      { name: "Tailwind CSS" },
-      { name: "HTML/CSS" },
-      { name: "JavaScript" },
+      { name: "Skills.skill_workload" },
+      { name: "Skills.skill_adaptability" },
+      { name: "Skills.skill_confidentiality" },
+      { name: "Skills.skill_pressure" },
     ],
   },
   {
-    categoryKey: "Skills.backend",
+    categoryKey: "Skills.communication",
     skills: [
-      { name: "Node.js" },
-      { name: "Python" },
-      { name: "PostgreSQL" },
-      { name: "MongoDB" },
-      { name: "REST API" },
-      { name: "GraphQL" },
+      { name: "Skills.skill_verbal" },
+      { name: "Skills.skill_programming" },
+      { name: "Skills.skill_internet" },
     ],
   },
   {
-    categoryKey: "Skills.tools",
+    categoryKey: "Skills.languages",
     skills: [
-      { name: "Git" },
-      { name: "Docker" },
-      { name: "AWS" },
-      { name: "Vercel" },
-      { name: "CI/CD" },
-      { name: "Linux" },
-    ],
-  },
-  {
-    categoryKey: "Skills.other",
-    skills: [
-      { name: "Figma" },
-      { name: "Agile/Scrum" },
-      { name: "Testing" },
-      { name: "SEO" },
+      { name: "Skills.skill_malay" },
+      { name: "Skills.skill_english" },
+      { name: "Skills.skill_arabic" },
     ],
   },
 ];

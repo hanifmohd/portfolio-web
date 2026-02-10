@@ -28,15 +28,15 @@ export default function Contact() {
                 </h3>
                 <div className="space-y-3">
                   <a
-                    href="mailto:your@email.com"
+                    href="mailto:hanifmohd@upsi.edu.my"
                     className="flex items-center gap-3 text-muted-foreground transition-colors hover:text-foreground"
                   >
                     <Mail size={18} className="text-primary" />
-                    your@email.com
+                    hanifmohd@upsi.edu.my
                   </a>
                   <div className="flex items-center gap-3 text-muted-foreground">
                     <MapPin size={18} className="text-primary" />
-                    Malaysia
+                    Tg. Malim, Perak, Malaysia
                   </div>
                 </div>
               </div>

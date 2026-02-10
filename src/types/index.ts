@@ -1,12 +1,8 @@
-export interface Project {
+export interface Education {
   id: string;
-  titleKey: string;
-  descriptionKey: string;
-  image: string;
-  tech: string[];
-  githubUrl?: string;
-  liveUrl?: string;
-  featured: boolean;
+  institutionKey: string;
+  qualificationKey: string;
+  year: number;
 }
 
 export interface Experience {
@@ -14,9 +10,9 @@ export interface Experience {
   companyKey: string;
   roleKey: string;
   descriptionKey: string;
+  gradeKey: string;
   startDate: string;
   endDate: string | null;
-  tech: string[];
 }
 
 export interface SkillCategory {
@@ -40,12 +36,13 @@ export interface NavItem {
   href: string;
 }
 
-export interface BlogPost {
+export interface Award {
   id: string;
-  slug: string;
   titleKey: string;
-  excerptKey: string;
-  date: string;
-  readingTime: string;
-  tags: string[];
+  year: number;
+}
+
+export interface AssessmentMark {
+  year: number;
+  score: number;
 }

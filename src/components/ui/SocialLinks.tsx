@@ -1,12 +1,10 @@
 import { socialLinks } from "@/data/social";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Mail, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const iconMap: Record<string, React.ComponentType<{ size?: number }>> = {
-  github: Github,
-  linkedin: Linkedin,
-  twitter: Twitter,
   email: Mail,
+  globe: Globe,
 };
 
 interface SocialLinksProps {
@@ -21,7 +19,7 @@ export default function SocialLinks({
   return (
     <div className={cn("flex items-center gap-3", className)}>
       {socialLinks.map((link) => {
-        const Icon = iconMap[link.icon] || Github;
+        const Icon = iconMap[link.icon] || Globe;
         return (
           <a
             key={link.platform}
