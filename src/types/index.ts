@@ -3,6 +3,7 @@ export interface Education {
   institutionKey: string;
   qualificationKey: string;
   year: number;
+  ongoing?: boolean;
 }
 
 export interface Experience {

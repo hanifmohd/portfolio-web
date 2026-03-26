@@ -31,6 +31,9 @@
   "Education": {
     "heading": "Education",
     "subtitle": "Academic qualifications and achievements.",
+    "ongoing": "Ongoing",
+    "edu3_institution": "Universiti Teknologi MARA (UiTM)",
+    "edu3_qualification": "Master in Data Sciences",
     "edu1_institution": "Universiti Teknologi MARA (UiTM)",
     "edu1_qualification": "Bachelor of Administrative Science (Honours)",
     "edu2_institution": "Universiti Teknologi MARA (UiTM)",

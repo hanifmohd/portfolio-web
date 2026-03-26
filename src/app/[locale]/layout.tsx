@@ -27,14 +27,8 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      locale: locale === "ms" ? "ms_MY" : "en_US",
+      locale: "en_US",
       type: "website",
-    },
-    alternates: {
-      languages: {
-        en: "/en",
-        ms: "/ms",
-      },
     },
   };
 }

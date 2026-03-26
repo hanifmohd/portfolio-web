@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { navItems } from "@/data/navigation";
 import ThemeToggle from "@/components/ui/ThemeToggle";
-import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import MobileNav from "./MobileNav";
 import { Menu } from "lucide-react";
 import { motion } from "motion/react";
@@ -55,7 +54,6 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-1">
-            <LanguageSwitcher />
             <ThemeToggle />
             <button
               onClick={() => setMobileOpen(true)}

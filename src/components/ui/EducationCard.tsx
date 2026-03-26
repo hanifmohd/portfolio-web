@@ -23,7 +23,7 @@ export default function EducationCard({ education }: EducationCardProps) {
           <GraduationCap size={24} className="text-primary" />
         </div>
         <span className="rounded-full bg-secondary px-3 py-1 text-sm font-semibold text-secondary-foreground">
-          {education.year}
+          {education.ongoing ? t("Education.ongoing") : education.year}
         </span>
       </div>
       <h3 className="mb-2 text-lg font-semibold text-card-foreground">
