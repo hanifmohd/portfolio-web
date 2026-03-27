@@ -5,8 +5,7 @@ export const educations: Education[] = [
     id: "edu-3",
     institutionKey: "Education.edu3_institution",
     qualificationKey: "Education.edu3_qualification",
-    year: 2024,
-    ongoing: true,
+    year: null,
   },
   {
     id: "edu-1",
