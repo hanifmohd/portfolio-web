@@ -11,6 +11,7 @@
     "skills": "Skills",
     "experience": "Experience",
     "awards": "Awards",
+    "works": "Works",
     "contact": "Contact"
   },
   "Hero": {
@@ -94,6 +95,22 @@
     "award_apc": "Anugerah Perkhidmatan Cemerlang",
     "award_tokoh": "Anugerah Tokoh Pelaksana",
     "score_label": "Score"
+  },
+  "Works": {
+    "heading": "Works & Digital Impact",
+    "subtitle": "Digital systems and platforms I've built throughout my career at UPSI.",
+    "category_digital": "Digital Platform",
+    "category_automation": "Automation System",
+    "work1_title": "Open Data Portal",
+    "work1_description": "Developed an open data website for Pejabat Karang Mengarang (Penerbit UPSI), making institutional publications and resources publicly accessible online.",
+    "work2_title": "Fuel Log Automation System",
+    "work2_description": "Built an automated system to calculate and process vehicle fuel usage logs for the Transportation Department, eliminating manual computation and improving accuracy.",
+    "work3_title": "Neoteric Curriculum Platform",
+    "work3_description": "Developed a comprehensive web platform for neoteric education curriculum development, featuring an automated lesson plan generator and standard curriculum document system.",
+    "stat1_label": "Digital Platforms Built",
+    "stat2_label": "Years of Service",
+    "stat3_label": "Awards Received",
+    "stat4_label": "Departments Served"
   },
   "Contact": {
     "heading": "Get In Touch",

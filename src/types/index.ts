@@ -46,3 +46,16 @@ export interface AssessmentMark {
   year: number;
   score: number;
 }
+
+export interface Work {
+  id: string;
+  titleKey: string;
+  descriptionKey: string;
+  categoryKey: string;
+  year: number;
+  department: string;
+  tags: string[];
+  gradient: string;
+  glowColor: string;
+  iconName: "Database" | "Gauge" | "BookOpen";
+}

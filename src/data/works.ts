@@ -1,0 +1,40 @@
+import { Work } from "@/types";
+
+export const works: Work[] = [
+  {
+    id: "work-1",
+    titleKey: "work1_title",
+    descriptionKey: "work1_description",
+    categoryKey: "category_digital",
+    year: 2018,
+    department: "Pejabat Karang Mengarang (Penerbit UPSI)",
+    tags: ["Web Development", "Open Data", "Information Portal"],
+    gradient: "from-blue-500 via-blue-600 to-indigo-700",
+    glowColor: "#3b82f6",
+    iconName: "Database",
+  },
+  {
+    id: "work-2",
+    titleKey: "work2_title",
+    descriptionKey: "work2_description",
+    categoryKey: "category_automation",
+    year: 2019,
+    department: "Bahagian Pengangkutan",
+    tags: ["Automation", "Data Processing", "Fuel Management"],
+    gradient: "from-teal-500 via-cyan-500 to-sky-600",
+    glowColor: "#14b8a6",
+    iconName: "Gauge",
+  },
+  {
+    id: "work-3",
+    titleKey: "work3_title",
+    descriptionKey: "work3_description",
+    categoryKey: "category_digital",
+    year: 2021,
+    department: "Akademi Pendidikan (Neoteric Education Initiatives Centre)",
+    tags: ["Web Development", "Curriculum System", "Document Generation", "Neoteric Approach"],
+    gradient: "from-violet-500 via-purple-600 to-fuchsia-700",
+    glowColor: "#8b5cf6",
+    iconName: "BookOpen",
+  },
+];
