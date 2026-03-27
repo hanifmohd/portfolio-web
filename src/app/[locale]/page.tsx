@@ -6,6 +6,7 @@ import Skills from "@/components/sections/Skills";
 import Experience from "@/components/sections/Experience";
 import Awards from "@/components/sections/Awards";
 import Works from "@/components/sections/Works";
+import Gallery from "@/components/sections/Gallery";
 import Contact from "@/components/sections/Contact";
 
 export default async function HomePage({
@@ -25,6 +26,7 @@ export default async function HomePage({
       <Experience />
       <Awards />
       <Works />
+      <Gallery />
       <Contact />
     </>
   );

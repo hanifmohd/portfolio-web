@@ -7,5 +7,6 @@ export const navItems: NavItem[] = [
   { labelKey: "Nav.experience", href: "#experience" },
   { labelKey: "Nav.awards", href: "#awards" },
   { labelKey: "Nav.works", href: "#works" },
+  { labelKey: "Nav.gallery", href: "#gallery" },
   { labelKey: "Nav.contact", href: "#contact" },
 ];

@@ -12,6 +12,7 @@
     "experience": "Experience",
     "awards": "Awards",
     "works": "Works",
+    "gallery": "Gallery",
     "contact": "Contact"
   },
   "Hero": {
@@ -95,6 +96,10 @@
     "award_apc": "Anugerah Perkhidmatan Cemerlang",
     "award_tokoh": "Anugerah Tokoh Pelaksana",
     "score_label": "Score"
+  },
+  "Gallery": {
+    "heading": "Graphic Design Gallery",
+    "subtitle": "A collection of posters, banners, logos and infographics I've designed throughout my career."
   },
   "Works": {
     "heading": "Works & Digital Impact",
