@@ -57,5 +57,5 @@ export interface Work {
   tags: string[];
   gradient: string;
   glowColor: string;
-  iconName: "Database" | "Gauge" | "BookOpen";
+  iconName: "Database" | "Gauge" | "BookOpen" | "BarChart2" | "Bot" | "Server";
 }

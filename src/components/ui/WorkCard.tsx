@@ -2,7 +2,7 @@
 
 import { useRef, useState, useCallback } from "react";
 import { motion } from "motion/react";
-import { Database, Gauge, BookOpen, MapPin } from "lucide-react";
+import { Database, Gauge, BookOpen, BarChart2, Bot, Server, MapPin } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { Work } from "@/types";
 
@@ -10,6 +10,9 @@ const icons: Record<Work["iconName"], React.ReactNode> = {
   Database: <Database size={52} strokeWidth={1.2} />,
   Gauge: <Gauge size={52} strokeWidth={1.2} />,
   BookOpen: <BookOpen size={52} strokeWidth={1.2} />,
+  BarChart2: <BarChart2 size={52} strokeWidth={1.2} />,
+  Bot: <Bot size={52} strokeWidth={1.2} />,
+  Server: <Server size={52} strokeWidth={1.2} />,
 };
 
 interface WorkCardProps {
