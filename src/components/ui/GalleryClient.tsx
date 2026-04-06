@@ -13,12 +13,15 @@ const CATEGORIES = [
   { id: "infografik", label: "Infografik" },
 ];
 
+const PAGE_SIZE = 12;
+
 interface GalleryClientProps {
   images: GalleryImage[];
 }
 
 export default function GalleryClient({ images }: GalleryClientProps) {
   const [activeCategory, setActiveCategory] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const availableCategories = CATEGORIES.filter(
@@ -30,6 +33,17 @@ export default function GalleryClient({ images }: GalleryClientProps) {
     activeCategory === "all"
       ? images
       : images.filter((img) => img.category === activeCategory);
+
+  const displayed = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
+  const handleCategoryChange = (id: string) => {
+    setActiveCategory(id);
+    setVisibleCount(PAGE_SIZE);
+    setLightboxIndex(null);
+  };
+
+  const loadMore = () => setVisibleCount((n) => n + PAGE_SIZE);
 
   const openLightbox = (index: number) => setLightboxIndex(index);
   const closeLightbox = () => setLightboxIndex(null);
@@ -73,10 +87,7 @@ export default function GalleryClient({ images }: GalleryClientProps) {
         {availableCategories.map((cat) => (
           <button
             key={cat.id}
-            onClick={() => {
-              setActiveCategory(cat.id);
-              setLightboxIndex(null);
-            }}
+            onClick={() => handleCategoryChange(cat.id)}
             className={`px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 border ${
               activeCategory === cat.id
                 ? "bg-primary text-primary-foreground border-primary shadow-lg"
@@ -101,7 +112,7 @@ export default function GalleryClient({ images }: GalleryClientProps) {
         transition={{ duration: 0.4 }}
         className="columns-2 sm:columns-3 lg:columns-4 gap-3"
       >
-        {filtered.map((img, index) => (
+        {displayed.map((img, index) => (
           <motion.div
             key={img.id}
             initial={{ opacity: 0, scale: 0.95 }}
@@ -132,6 +143,21 @@ export default function GalleryClient({ images }: GalleryClientProps) {
       {filtered.length === 0 && (
         <div className="text-center text-muted-foreground py-20">
           No images in this category yet.
+        </div>
+      )}
+
+      {/* Load More */}
+      {hasMore && (
+        <div className="mt-10 flex flex-col items-center gap-3">
+          <p className="text-sm text-muted-foreground">
+            Showing {displayed.length} of {filtered.length}
+          </p>
+          <button
+            onClick={loadMore}
+            className="px-8 py-3 rounded-full border border-border bg-card text-sm font-semibold text-foreground hover:border-primary hover:text-primary transition-all duration-300"
+          >
+            Load More
+          </button>
         </div>
       )}
 
