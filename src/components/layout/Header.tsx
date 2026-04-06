@@ -34,11 +34,12 @@ export default function Header() {
         }`}
       >
         <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <a
-            href="#"
-            className="text-xl font-bold text-foreground transition-colors hover:text-primary"
-          >
-            Portfolio
+          <a href="#" className="flex items-center">
+            <img
+              src="/logo.png"
+              alt="hanifmohd.net"
+              className="h-9 w-auto dark:invert transition-opacity hover:opacity-80"
+            />
           </a>
 
           <div className="hidden items-center gap-1 md:flex">
