@@ -1,8 +1,8 @@
 {
   "Metadata": {
-    "title": "Mohd Hanif Mohamad - Pegawai Tadbir UPSI",
+    "title": "Mohd Hanif Mohamad - Pegawai Tadbir / Pegawai Khas UPSI",
     "siteName": "Mohd Hanif Mohamad",
-    "description": "Pegawai Tadbir at Universiti Pendidikan Sultan Idris (UPSI)."
+    "description": "Administrative Officer / Special Officer at Universiti Pendidikan Sultan Idris (UPSI)."
   },
   "Nav": {
     "home": "Home",
@@ -18,7 +18,7 @@
   "Hero": {
     "greeting": "Hi, I'm",
     "name": "Mohd Hanif Mohamad",
-    "role": "Pegawai Tadbir UPSI",
+    "role": "Pegawai Tadbir / Pegawai Khas UPSI",
     "tagline": "Dedicated administrative professional with over 19 years of service at Universiti Pendidikan Sultan Idris.",
     "cta_about": "About Me",
     "cta_contact": "Get In Touch"
@@ -62,7 +62,7 @@
     "heading": "Work Experience",
     "subtitle": "My professional journey at Universiti Pendidikan Sultan Idris (UPSI).",
     "exp1_company": "Office of Deputy Vice Chancellor (Research & Innovation)",
-    "exp1_role": "Administrative Officer",
+    "exp1_role": "Administrative Officer / Special Officer",
     "exp1_description": "Overseeing administrative operations at the Office of Deputy Vice Chancellor for Research and Innovation.",
     "exp1_grade": "Grade N9",
     "exp2_company": "Neoteric Education Initiatives Centre",
