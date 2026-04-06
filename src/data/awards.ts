@@ -24,12 +24,13 @@ export const awards: Award[] = [
 ];
 
 export const assessmentMarks: AssessmentMark[] = [
-  { year: 2019, score: 93.45 },
-  { year: 2020, score: 97.89 },
-  { year: 2021, score: 99.0 },
-  { year: 2022, score: 100.0 },
-  { year: 2023, score: 93.45 },
+  { year: 2025, score: 100.0 },
   { year: 2024, score: 93.63 },
+  { year: 2023, score: 93.45 },
+  { year: 2022, score: 100.0 },
+  { year: 2021, score: 99.0 },
+  { year: 2020, score: 97.89 },
+  { year: 2019, score: 93.45 },
 ];
 
 export const sijilYears: number[] = [
