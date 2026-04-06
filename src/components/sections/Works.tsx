@@ -47,7 +47,7 @@ export default function Works() {
 
   const statItems = [
     { value: 6, suffix: "", label: t("stat1_label") },
-    { value: 17, suffix: "+", label: t("stat2_label") },
+    { value: 19, suffix: "+", label: t("stat2_label") },
     { value: 4, suffix: "", label: t("stat3_label") },
     { value: 6, suffix: "", label: t("stat4_label") },
   ];
